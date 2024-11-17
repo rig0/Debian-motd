@@ -2,7 +2,7 @@
 
 # Install prerequisites
 apt update && apt dist-upgrade -y
-apt install lolcat linuxlogo toilet figlet cowsay fortune
+apt install lolcat linuxlogo toilet figlet cowsay fortune -y
 
 # Backup up original motd
 mv /etc/motd /etc/motd.bak
