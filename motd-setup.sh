@@ -1,6 +1,7 @@
 #! /bin/bash
 
 # Install prerequisites
+apt update && apt dist-upgrade -y
 apt install lolcat linuxlogo toilet figlet cowsay fortune
 
 # Backup up original motd
